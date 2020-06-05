@@ -1,4 +1,4 @@
-# InstagramPosts
+# InstagramPosts (Get all the posts from a specific user. All you will do is to provide only username of instagram)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
