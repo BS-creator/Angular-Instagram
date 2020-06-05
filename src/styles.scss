@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  min-height: 500px;
+
+  app-root {
+    app-instagram {
+      #instagram-feed1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        // justify-content: space-around;
+        // margin-top: 66px;
+
+        .insta-post {
+          width: 300px;
+          // border: 1px solid gray;
+          border-radius: 5px;
+          margin-bottom: 30px;
+          padding: 30px;
+
+          img {
+            width: 100%;
+          }
+          p {
+            color: gray;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.loading {
+  background-image: url(./assets/spinner.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px;
+}
